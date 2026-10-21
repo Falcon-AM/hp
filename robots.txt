@@ -1,0 +1,6 @@
+# 確認用の間は全クローラーを拒否。本番公開時に下の2行を「Allow: /」に戻す
+User-agent: *
+Disallow: /
+
+# ↓ 本番URLに差し替え
+Sitemap: https://example.com/sitemap.xml
